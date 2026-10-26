@@ -9,7 +9,7 @@ const products = [
     {
         title: "Heavy Duty Pallet Racks",
         img: "/products/heavy-pallet.jpg",
-        link: "/products/heavy-pallet-racks",
+        link: "/products/heavy-duty-pallet-racks",
     },
     {
         title: "Mezzanine Floor / Loft",
@@ -24,22 +24,23 @@ export default function OurProducts() {
             <div className="max-w-7xl mx-auto">
 
                 {/* Title */}
-                <h1 className="text-4xl text-center font-light text-blue-700">
+                <h2 className="text-4xl text-center font-light text-blue-700">
                     Our Products
-                </h1>
+                </h2>
 
                 {/* Description */}
                 <p className="mt-6 max-w-3xl mx-auto text-center text-gray-600 text-lg">
-                    We provide a comprehensive range of warehouse and industrial storage
-                    solutions designed to improve space utilization, safety, and
-                    operational efficiency across industries.
+                    Explore Storeweiss Equipments' warehouse racking and industrial
+                    storage solutions, including slotted angle racks, heavy-duty pallet
+                    racks, and mezzanine floors. Designed to improve space utilization,
+                    safety, and operational efficiency.
                 </p>
 
                 {/* Product Cards */}
                 <div className="grid md:grid-cols-3 gap-12 mt-16">
-                    {products.map((p, idx) => (
+                    {products.map((p) => (
                         <div
-                            key={idx}
+                            key={p.link}
                             className="border border-slate-200 rounded-xl overflow-hidden
                          transition-all duration-300 hover:shadow-xl"
                         >
@@ -47,7 +48,9 @@ export default function OurProducts() {
                             <div className="overflow-hidden">
                                 <img
                                     src={p.img}
-                                    alt={p.title}
+                                    alt={`${p.title} for warehouse storage`}
+                                    loading="lazy"
+                                    decoding="async"
                                     className="h-72 w-full object-cover
                              transition-transform duration-500 hover:scale-110"
                                 />
@@ -66,7 +69,7 @@ export default function OurProducts() {
                              transition-all duration-300
                              hover:bg-blue-600 hover:text-white"
                                 >
-                                    View More
+                                    Explore {p.title}
                                 </Link>
                             </div>
                         </div>

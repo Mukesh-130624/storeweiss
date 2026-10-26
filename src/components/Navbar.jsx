@@ -24,9 +24,9 @@ export default function Navbar() {
             <div className="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
 
                 {/* Logo */}
-                <h1 className="text-2xl font-semibold tracking-wide">
+                <div className="text-2xl font-semibold tracking-wide">
                     STOREWEISS EQUIPMENTS
-                </h1>
+                </div>
 
                 {/* Desktop Menu */}
                 <ul className="hidden md:flex items-center gap-8 text-lg">

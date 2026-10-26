@@ -1,0 +1,11 @@
+lst =  [1,2,3,4,5,6]
+
+def reverse_lst(lst):
+    # result = lst[::-1]
+    rseult = []
+    for i in lst:
+        result = i + result.append[i]
+
+    return result
+
+print(reverse_lst([1,2,3,4,5,6]))

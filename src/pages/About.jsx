@@ -52,12 +52,29 @@ export default function About() {
                 <h2 className="text-2xl sm:text-3xl lg:text-4xl font-light text-blue-700">
                     About STOREWEISS EQUIPMENTS
                 </h2>
+                <p className="mt-6 text-gray-600 leading-relaxed text-base sm:text-lg">
+                    STOREWEISS EQUIPMENTS is a Proprietorship based company since 2018, at
+                    Tarapur-Boisar, Maharashtra and set as a business objective to
+                    manufacture, Slotted Angle, Shelving Racks/2 tier/3 tier Racking
+                    System, Mobile Racks (Compactors), Heavy Duty Pallet Racks, Industrial
+                    Lockers, Personal Lockers, Cupboards,trolleys and Filing Cabinets. The
+                    complete assortment is manufactured utilizing qualitative raw material
+                    and higher techniques, which have made them best in terms of
+                    consistency and effectiveness.
+                </p>
 
                 <p className="mt-6 text-gray-600 leading-relaxed text-base sm:text-lg">
+                    We are committed to design, manufacture and install a wide range of
+                    Industrial Storage Systems which are standardized as well as
+                    custom-built, to suit the specific requirements of our clients.
+                </p>
+
+                {/* <p className="mt-6 text-gray-600 leading-relaxed text-base sm:text-lg">
                     We would like to introduce ourselves as leading manufacturers for a wide range of Office,
                     Filing Systems, Modern Steel Slotted Angle Structures, Palletized Structure & Mezzanine Floor.
 
-                </p>
+                </p> */}
+
                 <p className="mt-6 text-gray-600 leading-relaxed text-base sm:text-lg">we have developed excellent business relations in Banks, Educational Institutes, Hospitals and
                     Commercial establishments, large and small scale Industries, Public and Private sectors & Shops And
                     the list is ever growing each and every activity revolves around the customer - whether it is designing

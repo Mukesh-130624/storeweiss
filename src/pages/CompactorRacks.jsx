@@ -30,7 +30,7 @@ export default function CompactorRacks() {
                             { label: "Heavy Duty Pallet Racks", link: "/products/heavy-duty-pallet-racks" },
                             { label: "Mezzanine Floor / Loft", link: "/products/mezzanine-floor" },
                             { label: "Compactor / Mobile Racks", link: "/products/compactor-racks" },
-                            { label: "2/3 Tier Storage Structure", to: "/products/tier-storage" },
+                            { label: "2/3 Tier Storage Structure", link: "/products/tier-storage" },
                             { label: "Industrial Lockers", link: "/products/industrial-lockers" },
                         ].map((p, i) => (
                             <Link
